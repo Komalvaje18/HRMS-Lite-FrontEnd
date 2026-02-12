@@ -28,7 +28,7 @@
 
   <div class="pagination">
     <button (click)="prevPage()" [disabled]="currentPage === 1">Prev</button>
-    Page {{currentPage}} of {{totalPages()}}
+    Page {{currentPage()}} of {{totalPages()}}
     <button (click)="nextPage()" [disabled]="currentPage === totalPages()">Next</button>
   </div>
 </div>
